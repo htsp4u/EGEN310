@@ -1,0 +1,2 @@
+# Additional details about the project
+I used Android Studio to create this app. If you want to use this app or modify it then you simply just have to download all the files and open the top level folder in Android Studio as an existing project. All project structure should be built and ready to run "out of the box". This app was built in version 3.5.3 of Android Studio. Code utilizes newer AndroidX imports. App was tested on a Galaxy S10+, but app should work for most android phones. Comments are provided where needed. Please download and modify to your heart's content.
