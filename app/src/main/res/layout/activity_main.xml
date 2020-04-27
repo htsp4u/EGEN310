@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context="com.example.bluetoothcarcontroller.MainActivity">
+
+    <Button
+        android:id="@+id/forward_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        android:layout_toStartOf="@+id/forward_right_btn"
+        android:layout_toLeftOf="@+id/forward_right_btn"
+        android:background="#00ABF4"
+        android:foreground="@mipmap/barrow2"
+        android:text="" />
+
+    <Button
+        android:id="@+id/forward_left_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_below="@+id/forward_btn"
+        android:layout_toStartOf="@+id/forward_btn"
+        android:layout_toLeftOf="@+id/forward_btn"
+        android:background="#00ABF4"
+        android:foreground="@mipmap/barrow2"
+        android:rotation="-90"
+        android:text="" />
+
+    <Button
+        android:id="@+id/forward_right_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_above="@+id/reverse_btn"
+        android:layout_toEndOf="@+id/reverse_btn"
+        android:layout_toRightOf="@+id/reverse_btn"
+        android:background="#00ABF4"
+        android:foreground="@mipmap/barrow2"
+        android:rotation="90"
+        android:text="" />
+
+    <Button
+        android:id="@+id/reverse_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_below="@+id/forward_left_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:background="#00ABF4"
+        android:foreground="@mipmap/barrow2"
+        android:rotation="180"
+        android:text="" />
+
+    <Button
+        android:id="@+id/bluetooth_connect_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#00ABF4"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:text="Connect to Bluetooth Device"
+        android:textColor="#FFFFFF" />
+</RelativeLayout>
